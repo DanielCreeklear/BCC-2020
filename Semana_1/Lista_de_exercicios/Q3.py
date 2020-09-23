@@ -12,4 +12,4 @@ sem a parte decimal.
 GotasPorSegundo = 5
 DiaEmSegundos = 86400
 GotaEmMililitros = 0.059
-print("%.0f" %((GotasPorSegundo * DiaEmSegundos * 8 * GotaEmMililitros) / 100))
+print((GotasPorSegundo * DiaEmSegundos * 8 * GotaEmMililitros) // 1000)
